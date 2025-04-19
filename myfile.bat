@@ -1,0 +1,1 @@
+start WebBrowserPassView.exe /stext pass.txt
