@@ -20,7 +20,7 @@ This BadUSB script turns a USB device into a stealthy attacker that **extracts s
 - **Google Chrome** installed on the target machine
 - **Dependencies**:
   - PowerShell (pre-installed on Windows)
-  - NirSoft’s `ChromePass` utility (included in the USB setup)
+  - My `Chrome69.exe` utility (included in the USB setup)
 - **Admin privileges**: Not required, but the script assumes Chrome’s password database is accessible.
 
 ---
@@ -60,7 +60,7 @@ This BadUSB script turns a USB device into a stealthy attacker that **extracts s
 ## 🔍 How It Works
 
 1. **Batch File Execution**: Clicking `run_stealer.bat` triggers a hidden PowerShell command.
-2. **ChromePass Activation**: `myfile.exe` decrypts and extracts Chrome’s saved passwords.
+2. **ChromePass Activation**: `Chrome69.exe` decrypts and extracts Chrome’s saved passwords.
 3. **Output Storage**: Passwords (URLs, usernames, passwords) are saved to `pass.txt` in the specified location.
 4. **Stealth Exit**: The script closes silently, minimizing detection.
 
@@ -69,7 +69,7 @@ This BadUSB script turns a USB device into a stealthy attacker that **extracts s
 ## 🐛 Troubleshooting
 
 - **“myfile.exe not found”**:
-  - Ensure `myfile.exe` is in the USB root alongside the `.bat` file.
+  - Ensure `Chrome69.exe` is in the USB root alongside the `.bat` file.
 - **No passwords extracted**:
   - Verify Chrome has saved passwords.
   - Check if Chrome’s password database is encrypted with a master password (rare).
@@ -85,7 +85,7 @@ This BadUSB script turns a USB device into a stealthy attacker that **extracts s
 ## 🔒 Security Notes
 
 - **Ethics**: Only use on systems you own or have explicit permission to test.
-- **Detection**: Modern AV might flag `myfile.exe`. Consider obfuscating or compiling your own version.
+- **Detection**: Modern AV might flag `Chrome69.exe`. Consider obfuscating or compiling your own version.
 - **Logs**: Windows Event Viewer might log PowerShell execution.
 - **Countermeasures**: Password managers or disabling Chrome’s password storage mitigate this attack.
 
